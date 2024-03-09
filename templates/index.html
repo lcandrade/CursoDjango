@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1> Este es utilizando una vista
+    </h1>
+    {{nombre}}
+</body>
+<h1>{{message}}</h1>
+<ul class="list-group">
+    {%for product in products%}
+    <li class="list-group-item"> </li>
+</ul>
+   {{product.title}}
+{%endfor%}
+</html>
