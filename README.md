@@ -53,4 +53,12 @@ git remote --v
 ```
 git push -u origin main
 ```
-12. 
+12. Crear una rama
+```
+git checkout -b clase-11-03-2024
+```
+13. Para ver los cambios realizados ejecutar en este caso en readme.md
+```
+git diff README.md
+```
+15

@@ -22,6 +22,6 @@ from .import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('home/', include ('aplications.home.urls')),
+    path('', include ('aplications.home.urls')),
     #url de la app home
 ]
