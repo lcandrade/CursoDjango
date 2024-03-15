@@ -9,3 +9,9 @@ class Departamento(models.Model):
     def __str__(self):
         return str (self.id) +'-' + self.name + '-' + self.sort_name
 
+    #uso de clase Meta
+    class Meta:
+        verbose_name='Mis Departamentos'
+        verbose_name_plural='Areas de la Empresa'
+        ordering=['-name']
+        unique_together= ('name','sort_name')
